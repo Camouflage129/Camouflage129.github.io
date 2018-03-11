@@ -1,7 +1,7 @@
----
-layout: post
-title: Samsung Test
-categories: [samsung]
----
-
+---
+layout: post
+title: Samsung Test
+categories: [samsung]
+---
+
 Samsung Test
