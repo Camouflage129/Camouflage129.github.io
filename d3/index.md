@@ -17,7 +17,6 @@ title: 삼성 SW Expert Academy | Solution code
 		{% else %}
 <h2><a href="{{ post.url }}"><small>{{ post.date | date: "%d %B, %Y" }}</small>{{ post.title }}</a></h2>
 		{% endif %}
-<p>{{ post.excerpt | truncatewords:25 }}</p>
 <hr/>
 
 {% endif %}
