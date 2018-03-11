@@ -21,6 +21,8 @@ dispus-shortname : Camouflage129
 # label listing. [create labels for category in folder `_label`]
 collections:
   - category
+  - samsung
+  - baekjoon
   
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
