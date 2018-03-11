@@ -7,7 +7,7 @@ title: Java | Spring / Framework
 <hr/>
 
 {% for category in site.categories %}
-{% if category[0] == "Java" %}
+{% if category[0] == "java" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}

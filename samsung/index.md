@@ -7,7 +7,7 @@ title: 삼성 SW Expert Academy | Solution code
 <hr/>
 
 {% for category in site.categories %}
-{% if category[0] == "Samsung" %}
+{% if category[0] == "samsung" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}

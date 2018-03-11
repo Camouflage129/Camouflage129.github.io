@@ -7,7 +7,7 @@ title: Oracle DB | Oracle DB 설치 / Eclipse 연동
 <hr/>
 
 {% for category in site.categories %}
-{% if category[0] == "Oracle" %}
+{% if category[0] == "oracle" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}
