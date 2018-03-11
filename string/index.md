@@ -6,8 +6,8 @@ title: Baekjoon | Solution Code
 <h1>Baekjoon</h1>
 <hr/>
 
-{% for baekjoon in site.baekjoons %}
-{% if baekjoon[0] == "string" %}
+{% for category in site.categories %}
+{% if category[0] == "baekjoon" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}
