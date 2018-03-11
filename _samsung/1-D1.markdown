@@ -1,5 +1,5 @@
 ---
 title: D1
-short-description: D1
+short-description: The Solutions of D1 Problems
 permalink: d1
 ---

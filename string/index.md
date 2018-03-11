@@ -6,8 +6,8 @@ title: Beakjoon | Solution Code
 <h1>Beakjoon</h1>
 <hr/>
 
-{% for category in site.categories %}
-{% if category[0] == "beakjoon" %}
+{% for beakjoon in site.categories %}
+{% if beakjoon[0] == "beakjoon" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}
