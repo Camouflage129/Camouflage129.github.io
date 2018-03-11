@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tomcat Test
-categories: [Tomcat]
+categories: [tomcat]
 ---
 
 Tomcat Test

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oracle Test
-categories: [Oracle]
+categories: [oracle]
 ---
 
 Oracle Test

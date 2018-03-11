@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java Test
-categories: [Java]
+categories: [java]
 ---
 
 Java Test
