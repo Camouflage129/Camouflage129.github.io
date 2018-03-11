@@ -1,5 +1,5 @@
 ---
 title: Tomcat
-short-description: Tomcat 설치 / Eclipse Server 연결
+short-description: Tomcat 설치 / Eclipse 연동
 permalink: tomcat
 ---

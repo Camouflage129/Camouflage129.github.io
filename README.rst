@@ -16,12 +16,6 @@ Thanks to Corey_, Dhrubajyoti_ and Dan_ for their awesome work which i followed 
 .. _Dhrubajyoti: https://github.com/dhrubajyoti-das
 .. _Dan: https://github.com/danhixon
 
-Snapshots - Desktop
----------------------------------------
-
-.. image:: atmos-plus-0.png
-.. image:: atmos-plus-1.png
-
 License
 =======
 The following directories and their contents are Copyright Ankan Biswas. You may not reuse anything therein without my permission:

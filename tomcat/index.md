@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tomcat | Tomcat 설치 | Eclipse 연동
+title: Tomcat | Tomcat 설치 / Eclipse 연동
 ---
 
 <h1>Tomcat</h1>
