@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Beakjoon | Solution Code
+title: Baekjoon | Solution Code
 ---
 
-<h1>Beakjoon</h1>
+<h1>Baekjoon</h1>
 <hr/>
 
-{% for category in site.categories %}
-{% if category[0] == "beakjoon" %}
+{% for baekjoon in site.categories %}
+{% if baekjoon[0] == "string" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}
