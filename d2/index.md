@@ -3,11 +3,11 @@ layout: default
 title: 삼성 SW Expert Academy | Solution code
 ---
 
-<h1>Solution code</h1>
+<h1>D2 Solution code</h1>
 <hr/>
 
 {% for category in site.categories %}
-{% if category[0] == "samsung" %}
+{% if category[0] == "d2" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}

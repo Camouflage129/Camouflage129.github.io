@@ -2,12 +2,12 @@
 
 layout: post
 
-title: Beakjoon Test
+title: Samsung D2 Test
 
-categories: [beakjoon]
+categories: [d2]
 
 ---
 
-Beakjoon Test
+Samsung D2 Test
 
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}

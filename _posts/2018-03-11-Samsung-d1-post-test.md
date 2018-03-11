@@ -2,12 +2,12 @@
 
 layout: post
 
-title: Samsung Test
+title: Samsung D1 Test
 
-categories: [samsung]
+categories: [d1]
 
 ---
 
-Samsung Test
+Samsung D1 Test
 
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}
