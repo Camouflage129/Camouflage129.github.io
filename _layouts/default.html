@@ -160,12 +160,16 @@
 
 <h3>삼성 SW Expert Academy</h3>
 {% for label in site.samsung %}
-<p class="view"><a href="{{ label.permalink }}" target="tab">{{ label.title }}<small>{{ label.short-description }}</small></a></li>
+	<p class="view">
+    <a href="{{ site.BASE_PATH }}{{ label.permalink }}">{{ label.title }}<small>{{ label.short-description }}</small></a>
+	</p>
 {% endfor %}
 
 <h3>Baekjoon</h3>
 {% for label in site.baekjoon %}
-<p class="view"><a href="{{ label.permalink }}" target="tab">{{ label.title }}<small>{{ label.short-description }}</small></a></li>
+	<p class="view">
+    <a href="{{ site.BASE_PATH }}{{ label.permalink }}">{{ label.title }}<small>{{ label.short-description }}</small></a>
+	</p>
 {% endfor %}
 
       </header>
