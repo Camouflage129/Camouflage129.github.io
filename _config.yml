@@ -16,6 +16,8 @@ BASE_PATH : http://Camouflage129.github.io/
 # Website title.
 title : Camouflage
 
+dispus-shortname : Camouflage129
+
 # label listing. [create labels for category in folder `_label`]
 collections:
   - category
