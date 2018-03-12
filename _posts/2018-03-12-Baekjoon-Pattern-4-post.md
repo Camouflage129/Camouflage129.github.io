@@ -7,6 +7,8 @@ categories: [pattern]
 
 ---
 
+[백준 1011번 문제보러가기](https://www.acmicpc.net/problem/1011)
+
 **==문제풀이 힌트==**<br>
 이 문제의 경우 규칙을 찾는 것이 가장 중요하다.<br>
 일자로 쭉 나열 해 보면,<br>
