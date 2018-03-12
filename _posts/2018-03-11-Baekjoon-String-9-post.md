@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2941 크로아티아
+title: 2941. 크로아티아
 categories: [string]
 ---
 

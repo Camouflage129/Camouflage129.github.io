@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 5622 다이얼
+title: 5622. 다이얼
 
 categories: [string]
 

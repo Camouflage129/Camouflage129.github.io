@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 11654번 아스키 코드
+title: 11654. 아스키 코드
 
 categories: [string]
 

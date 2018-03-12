@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 2908 상수
+title: 2908. 상수
 
 categories: [string]
 

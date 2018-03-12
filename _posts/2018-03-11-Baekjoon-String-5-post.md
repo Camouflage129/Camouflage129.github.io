@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 1316 그룹 단어 체커
+title: 1316. 그룹 단어 체커
 
 categories: [string]
 

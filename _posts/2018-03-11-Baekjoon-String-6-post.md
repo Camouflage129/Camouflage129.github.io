@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 1152 단어의 개수
+title: 1152. 단어의 개수
 
 categories: [string]
 
