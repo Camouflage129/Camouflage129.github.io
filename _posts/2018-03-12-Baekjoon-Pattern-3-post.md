@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 1924. 2007년
+title: 1193. 분수찾기
 
 categories: [pattern]
 
@@ -12,47 +12,53 @@ categories: [pattern]
 #include<iostream>
 using namespace std;
 
-int cal_day(int m, int d, int c_m, int c_d) {
-	if (m == c_m && m != 1)
-		return (c_d + d) % 7;
-	else if (m == 1)
-		return d % 7;
+int search_row(int input) {
+	int sum = 1;
+	int i = 1;
+	while (sum < input) {
+		i++;
+		sum += i;
+	}
+	return i;
+}
+
+int search_num(int input) {
+	int sum = 1;
+	int i = 1;
+	while (sum < input) {
+		i++;
+		sum += i;
+	} 
+	return sum;
+}
+
+void search_value(int input) {
+	int parent = search_row(input);
+	int son = 1;
+	int num = search_num(input) - input;
+	
+	if((parent % 2) == 0) {
+		for (int i = 0; i < num; i++) {
+			son++;
+			parent--;
+		}
+		printf("%d/%d\n",parent,son);
+	}
 	else {
-		if (c_m == 1 || c_m == 3 || c_m == 5 || c_m == 7 || c_m == 8 || c_m == 10 || c_m == 12)
-			cal_day(m, d, ++c_m, c_d + 31);
-		else if (c_m == 2)
-			cal_day(m, d, ++c_m, c_d + 28);
-		else if (c_m == 4 || c_m == 6 || c_m == 9 || c_m == 11)
-			cal_day(m, d, ++c_m, c_d + 30);
+		for (int i = 0; i < num; i++) {
+			son++;
+			parent--;
+		}
+		printf("%d/%d\n", son, parent);
 	}
 }
 
-void result(int d) {
-	if (d == 1)
-		printf("MON\n");
-	else if (d == 2)
-		printf("TUE\n");
-	else if (d == 3)
-		printf("WED\n");
-	else if (d == 4)
-		printf("THR\n");
-	else if (d == 5)
-		printf("FRI\n");
-	else if (d == 6)
-		printf("SAT\n");
-	else if (d == 0)
-		printf("SUN\n");
-	else
-		printf("Error\n");
-}
-
-
 int main() {
-	int m,d;
-	cin >> m;
-	cin >> d;
+	int input;
 
-	result(cal_day(m, d, 1, 0));
+	cin >> input;
+
+	search_value(input);
 }
 ```
 

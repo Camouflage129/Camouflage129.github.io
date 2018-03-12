@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 1193. 분수찾기
+title: 2292. 벌집
 
 categories: [pattern]
 
@@ -12,53 +12,21 @@ categories: [pattern]
 #include<iostream>
 using namespace std;
 
-int search_row(int input) {
-	int sum = 1;
-	int i = 1;
-	while (sum < input) {
-		i++;
-		sum += i;
-	}
-	return i;
-}
-
-int search_num(int input) {
-	int sum = 1;
-	int i = 1;
-	while (sum < input) {
-		i++;
-		sum += i;
-	} 
-	return sum;
-}
-
-void search_value(int input) {
-	int parent = search_row(input);
-	int son = 1;
-	int num = search_num(input) - input;
-	
-	if((parent % 2) == 0) {
-		for (int i = 0; i < num; i++) {
-			son++;
-			parent--;
-		}
-		printf("%d/%d\n",parent,son);
-	}
-	else {
-		for (int i = 0; i < num; i++) {
-			son++;
-			parent--;
-		}
-		printf("%d/%d\n", son, parent);
+long long check(long long input) {
+	if (input == 1)
+		return 1;
+	for (long long i = 1; i <= 166666667; i++) {
+		if (2 + 3 * i * (i-1) <= input && input < 2 + 3 * i * (i + 1))
+			return ++i;
 	}
 }
 
 int main() {
-	int input;
-
+	long long input;
 	cin >> input;
 
-	search_value(input);
+	input = check(input);
+	printf("%lld \n", input);
 }
 ```
 
