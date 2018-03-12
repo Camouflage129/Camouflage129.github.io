@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 1157 단어 공부
+title: 1157. 단어 공부
 
 categories: [string]
 

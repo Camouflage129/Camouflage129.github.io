@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 2675 문자열 반복
+title: 2675. 문자열 반복
 
 categories: [string]
 

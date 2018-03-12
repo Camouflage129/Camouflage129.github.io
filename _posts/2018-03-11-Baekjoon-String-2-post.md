@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 10809 알파벳 찾기
+title: 10809. 알파벳 찾기
 
 categories: [string]
 
