@@ -10,10 +10,9 @@ categories: [pattern]
 
 [백준 1193번 문제보러가기](https://www.acmicpc.net/problem/1193)
 
-<문제풀이 힌트> <br>
+==**문제풀이 힌트**==<br>
 분자끼리의 합과 분모끼리의 합을 해나가는 수열을 만들어 보자.<br>
 Ex) 1/1, 2/3, 4/4 ...<br>
-<br>
 
 ```cpp
 #include<iostream>
@@ -68,10 +67,8 @@ int main() {
 	search_value(input);
 }
 ```
-<br>
-<풀이> <br>
-분자의 값이 행의 값이 되고 분모의 값이 열의 값이 되는것을 알 수 있다. <br>
-<br>
-<br>
+
+==**풀이**==<br>
+분자의 값이 행의 값이 되고 분모의 값이 열의 값이 되는것을 알 수 있다.<br>
 
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}
