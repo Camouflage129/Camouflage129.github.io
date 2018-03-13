@@ -9,8 +9,6 @@ categories: [string]
 ---
 [백준 2675번 문제보러가기](https://www.acmicpc.net/problem/2675)
 
-==**문제풀이 힌트**==<br>
-
 ```cpp
 #include<iostream>
 #include<string>
