@@ -2,55 +2,46 @@
 
 layout: post
 
-title: 5622. 다이얼
+title: 10809. 알파벳 찾기
 
 categories: [string]
 
 ---
-
-[백준 5622번 문제보러가기](https://www.acmicpc.net/problem/5622)
+[백준 10809번 문제보러가기](https://www.acmicpc.net/problem/10809)
 
 ```cpp
 #include<iostream>
 #include<string>
 using namespace std;
 
-int check (char temp) {
-	if ('A' <= temp && temp <= 'C')
-		return 3;
-	else if ('D' <= temp && temp <= 'F')
-		return 4;
-	else if ('G' <= temp && temp <= 'I')
-		return 5;
-	else if ('J' <= temp && temp <= 'L')
-		return 6;
-	else if ('M' <= temp && temp <= 'O')
-		return 7;
-	else if ('P' <= temp && temp <= 'S')
-		return 8;
-	else if ('T' <= temp && temp <= 'V')
-		return 9;
-	else if ('W' <= temp && temp <= 'Z')
-		return 10;
-}
-
-int sum (string input) {
-	int sum = 0;
-	char temp;
-
-	for (int i = 0; i < input.length(); i++) {
-		temp = input.at(i);
-		sum += check(temp);
+void func(char code, char x, int code_num, int ap_num, int ap[]) {
+	if (code == x && ap[ap_num] == -1)
+		ap[ap_num] = code_num;
+	else {
+		if (ap_num != 26)
+			func(code, ++x, code_num, ++ap_num, ap);
 	}
-	return sum;
 }
 
 int main() {
 	string input;
+	char code;
+	int ap[26];
+
+	for (int i = 0; i < 26; i++) {
+		ap[i] = -1;
+	}
 
 	cin >> input;
 
-	printf("%d",sum(input));
+	for (int i = 0; i < input.length(); i++) {
+		code = input.at(i);
+		func(code, 'a', i, 0, ap);
+	}
+
+	for (int i = 0; i < 26; i++) {
+		printf("%d ", ap[i]);
+	}
 }
 ```
 

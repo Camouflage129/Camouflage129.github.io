@@ -1,58 +1,74 @@
----
-
-layout: post
-
-title: 1011. Fly me to the Alpha Centauri
-categories: [pattern]
-
----
-
-[백준 1011번 문제보러가기](https://www.acmicpc.net/problem/1011)
-
-**==문제풀이 힌트==**<br>
-이 문제의 경우 규칙을 찾는 것이 가장 중요하다.<br>
-일자로 쭉 나열 해 보면,<br>
-n^2의 수열에서 최단거리 = 좌우대칭이 완벽한 구조임을 알 수 있다.<br>
-이제 n^2의 수열과 나머지 수의 규칙을 찾아서 문제를 풀면 된다.<br>
-
-```cpp
-#include<iostream>
-#include<math.h>
-using namespace std;
-
-long long getNum(long long num) {
-	for (long long i = 1; i < num; i++) {
-		long long an_1 = (long long)pow(i - 1, 2);
-		long long an = (long long)pow(i, 2);
-		long long length = an - an_1;
-		if (an - i < num && num <= an)
-			return length;
-		else if (an < num && num <= an + i)
-			return length + 1;
-	}
-}
-
-int main() {
-	long long x, y;
-	int t;
-	cin >> t;
-	for (int i = 0; i < t; i++) {
-		cin >> x;
-		cin >> y;
-
-		printf("%lld\n", getNum(y - x));
-	}
-}
-```
-
-**==풀이==**<br>
-An = n^2이라 하면, An의 최단거리는 An - An-1 임을 알 수 있다.<br>
-또한 An - (n-1) ~ An은 같은 거리를 갖고 <br>
-An ~ An + n 까지는 An의 최단거리 +1이 됨을 알 수 있다.<br>
-예를 들면,<br>
-n=3 일 때, 7~9 까지는 거리가 모두 5이나 10~12 까지는 거리가 6임을 볼 수 있다.<br>
-그리고 이 문제에서 가장 중요한 점은 어디까지 반복문을 수행하느냐 인데,<br>
-위 소스에서 i < num을 하지 않을 경우 저어엉말 끔찍한 틀렸습니다의 연속을 맛 볼 수있다.<br>
-
-
+---
+
+layout: post
+
+title: 1924. 2007년
+
+categories: [pattern]
+
+---
+
+[백준 1924번 문제보러가기](https://www.acmicpc.net/problem/1924)
+
+==**문제풀이 힌트**==<br>
+각 달이 몇일까지 있는지 파악하고<br>
+그 달들의 요일 수와 요일에 대한 패턴을 알아낸다<br>
+필자는 7로 나눈 나머지로 문제를 풀었다.<br>
+
+```cpp
+#include<iostream>
+using namespace std;
+
+int cal_day(int m, int d, int c_m, int c_d) {
+	if (m == c_m && m != 1)
+		return (c_d + d) % 7;
+	else if (m == 1)
+		return d % 7;
+	else {
+		if (c_m == 1 || c_m == 3 || c_m == 5 || c_m == 7 || c_m == 8 || c_m == 10 || c_m == 12)
+			cal_day(m, d, ++c_m, c_d + 31);
+		else if (c_m == 2)
+			cal_day(m, d, ++c_m, c_d + 28);
+		else if (c_m == 4 || c_m == 6 || c_m == 9 || c_m == 11)
+			cal_day(m, d, ++c_m, c_d + 30);
+	}
+}
+
+void result(int d) {
+	if (d == 1)
+		printf("MON\n");
+	else if (d == 2)
+		printf("TUE\n");
+	else if (d == 3)
+		printf("WED\n");
+	else if (d == 4)
+		printf("THR\n");
+	else if (d == 5)
+		printf("FRI\n");
+	else if (d == 6)
+		printf("SAT\n");
+	else if (d == 0)
+		printf("SUN\n");
+	else
+		printf("Error\n");
+}
+
+
+int main() {
+	int m,d;
+	cin >> m;
+	cin >> d;
+
+	result(cal_day(m, d, 1, 0));
+}
+```
+
+**==풀이==**<br>
+입력받은 월이 몇일까지 있는지 판단한다.<br>
+그리고 각 일수를 각 월의 총 일수를 더해서<br>
+7로 나눈 나머지를 구하면 0~7의 값을 얻을 수 있다.<br>
+그리고 0~7까지 일요일 - 월요일 -... 순임도 알 수 있다.<br>
+예를들어,<br>
+31일까지 있는 월은 입력받은 일 수에 31일을 더하고<br>
+7로 나눈 나머지를 구하면 그 값이 1일 때 월요일 임을 알 수 있다.<br>
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}
