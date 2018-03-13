@@ -8,10 +8,11 @@ categories: [pattern]
 
 ---
 
-[백준 2275번 문제보러가기](https://www.acmicpc.net/problem/2275)
+[백준 2775번 문제보러가기](https://www.acmicpc.net/problem/2775)
 
 ==**문제풀이 힌트**==<br>
-.<br>
+0층에는 1호에 1명 2호에 2명 ... 이 있고<br>
+K층에 N명이라면, 그 전 층까지의 합이 계속해서 쌓인다는 것을 파악 한다.<br>
 
 ```cpp
 #include<iostream>
@@ -55,5 +56,8 @@ int main() {
 ```
 
 **==풀이==**<br>
-.<br>
+2층의 3호를 예로 들자.<br>
+0층의 1호~3호까지의 합 + 1층의 1호~3호까지의 합이다<br>
+= 0:1~3 + 0:1 + 0:1~2 + 0:1~3 임을 알 수있다.<br>
+패턴 파악이 끝났으니 잘 만들도록 한다.<br>
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}
