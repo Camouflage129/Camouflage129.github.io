@@ -8,6 +8,9 @@ categories: [string]
 
 ---
 
+[백준 1157번 문제보러가기](https://www.acmicpc.net/problem/1157)
+
+
 ```cpp
 #include<iostream>
 #include<string>

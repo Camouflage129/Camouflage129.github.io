@@ -7,6 +7,10 @@ title: 1316. 그룹 단어 체커
 categories: [string]
 
 ---
+[백준 1316번 문제보러가기](https://www.acmicpc.net/problem/1316)
+
+==**문제풀이 힌트**==<br>
+입력받은 String의 알파벳이 연속해서 나와야만 하는 것을 파악한다.<br>
 
 ```cpp
 #include<iostream>
@@ -64,5 +68,12 @@ int main() {
 	}
 }
 ```
+
+**==풀이==**<br>
+필자의 경우 프로그램이 다음과 같이 구성된다.<br>
+1. 입력받은 스트링에서 각 알파벳이 연속되서 나타나는지 체크하는 함수<br>
+2. 입력받은 함수가 그룹 단어일 때, 개수를 Count<br>
+알파벳이 연속되서 나타는지는 at(자바의 경우charAt)으로 <br>
+해당 배열의 인덱스와 값을 넘겨서 입력받은 String 전체와 비교하여 판별한다.<br>
 
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}
