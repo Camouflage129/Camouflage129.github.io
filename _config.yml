@@ -8,9 +8,9 @@ highligher:  true
 # Build settings
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 
-rdiscount:
+kramdown:
   extensions: [smart]
 
 # This is the default base url path.
