@@ -8,8 +8,6 @@ highligher:  true
 # Build settings
 markdown: kramdown
 
-highlighter: rouge
-
 kramdown:
   extensions: [smart]
 
