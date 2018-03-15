@@ -7,6 +7,9 @@ highligher:  true
 
 # Build settings
 markdown:    rdiscount
+
+highlighter: pygments
+
 rdiscount:
   extensions: [smart]
 
@@ -23,7 +26,7 @@ collections:
   - category
   - samsung
   - baekjoon
-  
+
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:title
