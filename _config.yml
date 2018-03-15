@@ -6,7 +6,9 @@ port:        4000
 highligher:  true
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
+
+highlighter: rouge
 
 rdiscount:
   extensions: [smart]
