@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <!-- css for highlight.js --> <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css"> <!-- javascript file for hightlight.js --> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script> <!-- activate highlight.js --> <script>hljs.initHighlightingOnLoad();</script>
@@ -11,3 +12,14 @@ layout: default
 <hr/>
 {{content}}
 </article>
+
+
+
+```
+{% if page.author %}
+• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+{% endif %}
+{% if page.comments %}
+• <a href="{{ site.url }}{{ page.url }}#disqus_thread">Comments</a>
+{% endif %}
+```
