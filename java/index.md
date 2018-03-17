@@ -17,14 +17,16 @@ title: Java | Spring / Framework
 		{% else %}
 <h2><a href="{{ post.url }}"><small>{{ post.date | date: "%d %B, %Y" }}</small>{{ post.title }}</a></h2>
 		{% endif %}
-<p>{{ post.excerpt | truncatewords:25 }}</p>
-<hr/>
 
 {% if site.discus-identifier %}
  <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>
 {% endif %}
 
+<p>{{ post.excerpt | truncatewords:25 }}</p>
+<hr/>
+
 {% endif %}
+
    {% endfor %}
    {% endfor %}
 {% endif %}
