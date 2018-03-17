@@ -29,7 +29,6 @@ title: Baekjoon | Solution Code
 {% endif %}
 
 {% endif %}
-<p>{{ post.excerpt | truncatewords:25 }}</p>
 <hr/>
 
 {% endif %}

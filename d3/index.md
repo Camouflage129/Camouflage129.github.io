@@ -29,7 +29,6 @@ title: 삼성 SW Expert Academy | Solution code
 {% endif %}
 
 {% endif %}
-<p>{{ post.excerpt | truncatewords:25 }}</p>
 <hr/>
 
 {% endif %}
