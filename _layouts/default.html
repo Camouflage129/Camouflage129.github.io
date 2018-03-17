@@ -187,6 +187,8 @@
     <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
     
-    <script id="dsq-count-scr" src="//camouflage129.disqus.com/count.js" async></script>
+    {% if site.discus-identifier %}
+    <script id="dsq-count-scr" src="//{{ site.discus-identifier }}.disqus.com/count.js" async></script>
+    {% endif %}
   </body>
 </html>
