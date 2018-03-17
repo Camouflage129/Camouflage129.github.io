@@ -18,9 +18,7 @@ title: Java | Spring / Framework
 <h2><a href="{{ post.url }}"><small>{{ post.date | date: "%d %B, %Y" }}</small>{{ post.title }}</a></h2>
 		{% endif %}
 
-{% if site.discus-identifier %}
- <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">comments</a>
-{% endif %}
+ <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>
 
 <p>{{ post.excerpt | truncatewords:25 }}</p>
 <hr/>
