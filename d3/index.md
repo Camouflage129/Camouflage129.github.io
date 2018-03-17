@@ -3,7 +3,9 @@ layout: default
 title: 삼성 SW Expert Academy | Solution code
 ---
 
-<h1>D3 Solution code</h1><hr/>
+<h1>D3 Solution code</h1>
+
+<hr/>
 
 {% for category in site.categories %}
 {% if category[0] == "d3" %}
