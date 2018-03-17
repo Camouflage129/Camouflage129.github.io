@@ -3,7 +3,7 @@ layout: default
 title: Baekjoon | Solution Code
 ---
 
-<h1>Baekjoon</h1>
+<h1>규칙 찾기</h1>
 <hr/>
 
 {% for category in site.categories %}
