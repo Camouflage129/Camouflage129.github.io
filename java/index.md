@@ -20,6 +20,10 @@ title: Java | Spring / Framework
 <p>{{ post.excerpt | truncatewords:25 }}</p>
 <hr/>
 
+{% if site.discus-identifier %}
+ <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>
+{% endif %}
+
 {% endif %}
    {% endfor %}
    {% endfor %}
