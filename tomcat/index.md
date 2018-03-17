@@ -4,18 +4,15 @@ title: Tomcat | Tomcat 설치 / Eclipse 연동
 ---
 
 <h1>Tomcat</h1>
-
 <hr/>
 
 {% for category in site.categories %}
-{% if category[0] == "tomcat" %} {% for posts in category %}
+{% if category[0] == "tomcat" %}
+    {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}
 
-```
-	{% if post.custom-link %}
-```
-
+		{% if post.custom-link %}
 <h2><a href="{{ post.custom-link }}"><small>{{ post.date | date: "%d %B, %Y" }}</small>{{ post.title }}</a></h2>
 
 {% if site.discus-identifier %}

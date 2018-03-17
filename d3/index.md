@@ -4,7 +4,6 @@ title: 삼성 SW Expert Academy | Solution code
 ---
 
 <h1>D3 Solution code</h1>
-
 <hr/>
 
 {% for category in site.categories %}
@@ -13,10 +12,7 @@ title: 삼성 SW Expert Academy | Solution code
     {% for post in posts %}
 {% if post.title %}
 
-```
-	{% if post.custom-link %}
-```
-
+		{% if post.custom-link %}
 <h2><a href="{{ post.custom-link }}"><small>{{ post.date | date: "%d %B, %Y" }}</small>{{ post.title }}</a></h2>
 
 {% if site.discus-identifier %}
