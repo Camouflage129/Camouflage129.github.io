@@ -3,7 +3,7 @@
 destination: ./_site
 lsi:         false
 port:        4000
-highligher:  true
+highlighter:  true
 
 # Build settings
 markdown: kramdown

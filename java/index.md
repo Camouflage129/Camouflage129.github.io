@@ -19,7 +19,7 @@ title: Java | Spring / Framework
 		{% endif %}
 
 {% if site.discus-identifier %}
- <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>
+ <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">comments</a>
 {% endif %}
 
 <p>{{ post.excerpt | truncatewords:25 }}</p>
