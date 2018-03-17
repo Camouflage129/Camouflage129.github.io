@@ -6,7 +6,7 @@ title: 삼성 SW Expert Academy | Solution code
 <h1>D3 Solution code</h1><hr/>
 
 {% for category in site.categories %}
-{% if category[0] == "oracle" %}
+{% if category[0] == "d3" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}

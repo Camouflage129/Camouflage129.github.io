@@ -6,7 +6,7 @@ title: Baekjoon | Solution Code
 <h1>Baekjoon</h1><hr/>
 
 {% for category in site.categories %}
-{% if category[0] == "oracle" %}
+{% if category[0] == "pattern" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}

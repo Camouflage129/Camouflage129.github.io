@@ -8,7 +8,7 @@ title: Tomcat | Tomcat 설치 / Eclipse 연동
 <hr/>
 
 {% for category in site.categories %}
-{% if category[0] == "oracle" %}
+{% if category[0] == "tomcat" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}
