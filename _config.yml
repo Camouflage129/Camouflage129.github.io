@@ -21,6 +21,8 @@ title : Camouflage
 
 dispus-shortname : Camouflage129
 
+discus-identifier: Camouflage129
+
 # label listing. [create labels for category in folder `_label`]
 collections:
   - category
