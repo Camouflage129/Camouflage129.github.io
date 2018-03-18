@@ -5,9 +5,9 @@ categories: [sort]
 ---
 [백준 10989번 문제보러가기](https://www.acmicpc.net/problem/10989)
 
-**== Counting Sort==**
+**== Counting Sort ==**
 
-![:\gitBlog\Camouflage129.github.io\images\sort\Counting Sort.gi](C:\gitBlog\Camouflage129.github.io\images\sort\Counting Sort.gif)
+![Counting Sort]({{ BASE_PATH }}images\sort\Counting Sort.gif)
 
 ```c
 
@@ -15,9 +15,9 @@ categories: [sort]
 
 
 
-**==Radix Sort==**
+**== Radix Sort ==**
 
-![:\gitBlog\Camouflage129.github.io\images\sort\Radix Sort.pn](C:\gitBlog\Camouflage129.github.io\images\sort\Radix Sort.png)
+![Radix Sort]({{ BASE_PATH }}images\sort\Radix Sort.png)
 
 ```c
 

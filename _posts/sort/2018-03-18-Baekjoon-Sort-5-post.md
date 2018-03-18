@@ -5,9 +5,9 @@ categories: [sort]
 ---
 [백준 2751번 문제보러가기](https://www.acmicpc.net/problem/2751)
 
-**== Merge Sort==**
+**== Merge Sort ==**
 
-![:\gitBlog\Camouflage129.github.io\images\sort\Merge Sort.gi](C:\gitBlog\Camouflage129.github.io\images\sort\Merge Sort.gif)
+![Merge Sort]({{ BASE_PATH }}images\sort\Merge Sort.gif)
 
 ```c
 
@@ -15,9 +15,9 @@ categories: [sort]
 
 
 
-**==Heap Sort==**
+**== Heap Sort ==**
 
-![:\gitBlog\Camouflage129.github.io\images\sort\Heap Sort.gi](C:\gitBlog\Camouflage129.github.io\images\sort\Heap Sort.gif)
+![Heap Sort]({{ BASE_PATH }}images\sort\Heap Sort.gif)
 
 ```c
 

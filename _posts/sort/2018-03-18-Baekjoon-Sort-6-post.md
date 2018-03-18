@@ -5,7 +5,7 @@ categories: [sort]
 ---
 [백준 2750번 문제보러가기](https://www.acmicpc.net/problem/2750)
 
-**== Bubble Sort==**
+**== Bubble Sort ==**
 
 하나씩 비교하며 가장 큰수를 맨 뒤로 두는 정렬방법<br><img src="{{ BASE_PATH }}images\sort\Bubble Sort.gif" alt="Bubble Sort"/>
 
@@ -46,7 +46,7 @@ int main() {
 
 
 
-**==Insertion Sort==**
+**== Insertion Sort ==**
 
 2번째 인덱스 부터 자신보다 앞에있는 숫자와 비교하는 정렬방법
 
