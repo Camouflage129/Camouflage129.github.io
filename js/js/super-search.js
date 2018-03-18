@@ -11,7 +11,7 @@
         currentInputValue = '',
         lastSearchResultHash,
         posts = [],
-        sitemap = 'https://saewookr.github.io/sitemap.xml';
+        sitemap = 'https://camouflage129.github.io/sitemap.xml';
 
 // Changes XML to JSON
 // Modified version from here: http://davidwalsh.name/convert-xml-json
