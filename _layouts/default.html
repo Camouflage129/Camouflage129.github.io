@@ -162,54 +162,29 @@ style="fill:none;stroke:#dc3c1a;stroke-width:19.89999962;stroke-linecap:round;st
 
 <div class="row">
 
+</div>
+
 <!-- generate labels -->
 {% for label in site.category %}
-
-<div class="row">
 
 ​    <p class="view">
     <a href="{{ site.BASE_PATH }}{{ label.permalink }}">{{ label.title }}<small>{{ label.short-description }}</small></a>
     </p>
-
-</div>
-
 {% endfor %}
-
-</div>
-
-<div class="row">
 
 <h3>삼성 SW Expert Academy</h3>
 {% for label in site.samsung %}
-
-<div class="row">
-
-​	<p class="view">
+	<p class="view">
     <a href="{{ site.BASE_PATH }}{{ label.permalink }}">{{ label.title }}<small>{{ label.short-description }}</small></a>
 	</p>
-
-</div>
-
 {% endfor %}
-
-</div>
-
-<div class="row">
 
 <h3>Baekjoon</h3>
 {% for label in site.baekjoon %}
-
-<div class="row">
-
-​	<p class="view">
+	<p class="view">
     <a href="{{ site.BASE_PATH }}{{ label.permalink }}">{{ label.title }}<small>{{ label.short-description }}</small></a>
 	</p>
-
-</div>
-
 {% endfor %}
-
-</div>
 
   </header>
   <section id="main">
