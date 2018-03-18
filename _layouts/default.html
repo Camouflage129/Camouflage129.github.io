@@ -169,7 +169,7 @@
   window.simpleJekyllSearch = new SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    json: "{{ site.BASE_PATH }}/search.json",
+    json: "{{ site.BASE_PATH }}search.json",
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
     noResultsText: "No results found",
     limit: 10,
