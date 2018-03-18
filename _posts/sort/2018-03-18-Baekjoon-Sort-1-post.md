@@ -1,26 +1,22 @@
 ---
 layout: post
-title: 2751. Counting Sort / Radix Sort
+title: 1181. 단어 정렬
 categories: [sort]
 ---
-[백준 10989번 문제보러가기](https://www.acmicpc.net/problem/10989)
+[백준 1181번 문제보러가기](https://www.acmicpc.net/problem/1181)
 
-**== Counting Sort==**
-
-
-
-```c
-
-```
-
-
-
-**==Radix Sort==**
+**== 문제풀이 힌트 ==**<br>
 
 
 
 ```c
 
 ```
+
+
+
+**== 풀이 ==**<br>
+
+
 
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}

@@ -7,9 +7,7 @@ categories: [sort]
 
 **== Bubble Sort==**
 
-하나씩 비교하며 가장 큰수를 맨 뒤로 두는 정렬방법
-
-![:\gitBlog\Camouflage129.github.io\images\sort\Bubble Sort.gi](C:\gitBlog\Camouflage129.github.io\images\sort\Bubble Sort.gif)
+하나씩 비교하며 가장 큰수를 맨 뒤로 두는 정렬방법<br><img src="C:\gitBlog\Camouflage129.github.io\images\sort\Bubble Sort.gif" alt="Bubble Sort"/>
 
 ```c
 #pragma warning (disable:4996)
@@ -52,7 +50,7 @@ int main() {
 
 2번째 인덱스 부터 자신보다 앞에있는 숫자와 비교하는 정렬방법
 
-![:\gitBlog\Camouflage129.github.io\images\sort\Insertion Sort.gi](C:\gitBlog\Camouflage129.github.io\images\sort\Insertion Sort.gif)
+![Insertion Sort](C:\gitBlog\Camouflage129.github.io\images\sort\Insertion Sort.gif)
 
 ```c
 #pragma warning (disable:4996)
