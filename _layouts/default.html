@@ -160,16 +160,13 @@ style="fill:none;stroke:#dc3c1a;stroke-width:19.89999962;stroke-linecap:round;st
               <ul class="search__results" id="js-search__results"></ul>
 </div>
 
-<div class="row">
-
-</div>
-
 <!-- generate labels -->
-{% for label in site.category %}
 
-​    <p class="view">
+<h3>Programming</h3>
+{% for label in site.category%}
+	<p class="view">
     <a href="{{ site.BASE_PATH }}{{ label.permalink }}">{{ label.title }}<small>{{ label.short-description }}</small></a>
-    </p>
+	</p>
 {% endfor %}
 
 <h3>삼성 SW Expert Academy</h3>
