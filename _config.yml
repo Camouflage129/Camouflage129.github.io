@@ -19,9 +19,15 @@ BASE_PATH : http://Camouflage129.github.io/
 # Website title.
 title : Camouflage
 
+##Add setting
+
 dispus-shortname : Camouflage129
 
 discus-identifier: Camouflage129
+
+baseurl: https://camouflage129.github.io
+
+
 
 # label listing. [create labels for category in folder `_label`]
 collections:
