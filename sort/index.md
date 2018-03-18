@@ -3,11 +3,11 @@ layout: default
 title: Baekjoon | Solution Code
 ---
 
-<h1>정렬</h1>
+<h1>정렬해보기</h1>
 <hr/>
 
 {% for category in site.categories %}
-{% if category[0] == " sort" %}
+{% if category[0] == "sort" %}
     {% for posts in category %}
     {% for post in posts %}
 {% if post.title %}
