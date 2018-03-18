@@ -87,6 +87,6 @@ int main() {
 }
 ```
 
-[^이미지 출처]: 위키피디아
+*이미지 출처 : 위키피디아*
 
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}
