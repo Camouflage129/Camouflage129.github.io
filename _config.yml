@@ -25,11 +25,11 @@ discus-identifier: Camouflage129
 
 SimpleJekyllSearch({
 
-  searchInput: document.getElementById('search-input'),
+  searchInput: document.getElementById("search-input"),
 
-  resultsContainer: document.getElementById('results-container'),
+  resultsContainer: document.getElementById("results-container"),
 
-  json: '/search.json'
+  json: "/search.json"
 
 })
 
