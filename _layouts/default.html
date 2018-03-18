@@ -151,29 +151,19 @@
   </a>
   <a href="/">{{site.title}}</a></h1>
 
-<!— Html Elements for Search -->
-<div id="search-container">
-<input type="text" id="search-input" placeholder="게시글 검색...">
-<ul id="results-container">
+<!-- HTML elements for search -->
 
-</ul>
+<div id="search-container">
+
+  <input type="text" id="search-input" placeholder="search...">
+
+  <ul id="results-container"></ul>
+
 </div>
 
-<!-- Script pointing to jekyll-search.js -->
-<script src="{{site.baseurl}}/dest/jekyll-search.js" type="text/javascript"></script>
+<!-- script pointing to jekyll-search.js -->
 
-<script type="text/javascript">
-      SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/search2.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
-</script>
+<script src="{{ site.baseurl }}/simple-jekyll-search.min.js"></script>
 
 <!-- generate labels -->
 {% for label in site.category %}

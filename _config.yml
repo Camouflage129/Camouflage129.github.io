@@ -23,6 +23,16 @@ dispus-shortname : Camouflage129
 
 discus-identifier: Camouflage129
 
+SimpleJekyllSearch({
+
+  searchInput: document.getElementById('search-input'),
+
+  resultsContainer: document.getElementById('results-container'),
+
+  json: '/search.json'
+
+})
+
 # label listing. [create labels for category in folder `_label`]
 collections:
   - category
