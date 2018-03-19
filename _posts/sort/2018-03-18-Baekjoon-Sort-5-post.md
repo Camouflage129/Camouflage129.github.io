@@ -75,10 +75,6 @@ int main() {
 
 ![Heap Sort]({{ BASE_PATH }}images\sort\Heap Sort.gif)
 
-```c
-
-```
-
 *이미지 출처 : 위키피디아*
 
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}
