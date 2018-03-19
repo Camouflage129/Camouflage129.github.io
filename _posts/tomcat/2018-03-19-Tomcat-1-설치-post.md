@@ -13,15 +13,15 @@ categories: [tomcat]
 
 ![1]({{ BASE_PATH }}images\tomcat\1.png)<br>
 
-위에서 빨간 부분을 클릭하여 다운로드 페이지로 간 후 밑으로 드래그를 하면<br>![2]({{ BASE_PATH }}images\images\tomcat\2.png)<br>
+위에서 빨간 부분을 클릭하여 다운로드 페이지로 간 후 밑으로 드래그를 하면<br>![2]({{ BASE_PATH }}images\tomcat\2.png)<br>
 
 8.0버전 자신에 맞는 윈도우zip파일을 다운로드 받자.<br>
 
-![3]({{ BASE_PATH }}images\images\tomcat\3.png)<br>
+![3]({{ BASE_PATH }}images\tomcat\3.png)<br>
 
 C드라이버에 tomcat폴더를 만들어 준 후 그 안에 압축을 풀자.<br>
 
-![4]({{ BASE_PATH }}images\images\tomcat\4.png)<br>
+![4]({{ BASE_PATH }}images\tomcat\4.png)<br>
 
 반드시 바꿔줘야 할 설정이 있는데, 후에 오라클DB를 설치하면 포트번호가 8080으로 겹쳐<br>
 
@@ -29,7 +29,7 @@ C드라이버에 tomcat폴더를 만들어 준 후 그 안에 압축을 풀자.<
 
 C:\tomcat\apache-tomcat-8.0.50\conf 로 들어간 후 server.xml파일을 열자<br>
 
-![5](C:\tomcat\apache-tomcat-8.0.50\confimages\tomcat\5.png)<br>
+![5]({{ BASE_PATH }}images\tomcat\5.png)<br>
 
 원래 저 부분이 8080으로 되어있을 텐데 9000번으로 바꾸어 사용하자<br>
 
