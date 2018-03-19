@@ -33,8 +33,7 @@ int main() {
 
 	int *arr = (int *)malloc(sizeof(int)*t);
 	for (int i = 0; i < t; i++) {
-		scanf("%d", &input);
-		arr[i] = input;
+		scanf("%d", &arr[i]);
 	}
 	bubble_sort(arr, t);
 
@@ -76,8 +75,7 @@ int main() {
 
 	int *arr = (int *)malloc(sizeof(int)*t);
 	for (int i = 0; i < t; i++) {
-		scanf("%d", &input);
-		arr[i] = input;
+		scanf("%d", &arr[i]);
 	}
 	insertion_sort(arr, t);
 
