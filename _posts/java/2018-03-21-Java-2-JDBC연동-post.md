@@ -42,7 +42,7 @@ next함수로 부터 getString / Date / int 등 구체적으로 해당 컬럼에
 
 간단한 예제 코드는 다음과 같다.<br>
 
-![3](C:\gitBlog\Camouflage129.github.io\images\java\JDBC3.png)<br>
+![3]({{ BASE_PATH }}images\java\JDBC3.png)<br>
 
 -JDBC 연동하여 DB수행하기 끝-<br>
 
