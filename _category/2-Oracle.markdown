@@ -1,5 +1,5 @@
 ---
 title: Oracle DB
-short-description: Oracle DB 설치 / Eclipse 연동
+short-description: Oracle 설치 / DB Framework
 permalink: oracle
 ---

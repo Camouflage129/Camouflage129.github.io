@@ -1,5 +1,5 @@
 ---
 title: Java
-short-description: Java Spring / Framework
+short-description: MVC / Spring / Framework
 permalink: java
 ---
