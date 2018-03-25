@@ -26,8 +26,6 @@ Web단으로 갔을 때, 위의 그림 처럼 각 기능을 수행할 Controller
 
 다시 반환 할 때, 알맞은 JSP로 보내줄 Map Resovler가 존재한다. <br>
 
-(Map Resolver는 위의 그림에 그리지 않았습니다.)<br>
-
 <br>
 
 먼저, DB개발자와 서버(Controller)개발자는 <br>
