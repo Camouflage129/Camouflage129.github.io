@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Oracle DB | Oracle DB 설치 / Eclipse 연동
+title: Oracle DB | Oracle 설치 / DB Framework
 ---
 
 <h1>Orcale DB</h1>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Java | Spring / Framework
+title: Java | MVC / Spring / Framework
 ---
 
 <h1>Java</h1>

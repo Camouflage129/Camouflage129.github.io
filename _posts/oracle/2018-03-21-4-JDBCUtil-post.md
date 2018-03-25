@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JDBCUtil을 만들어 사용해보자.
-categories: [java]
+categories: [oracle]
 ---
 
 **== JDBCUtil 예제 ==**<br>
