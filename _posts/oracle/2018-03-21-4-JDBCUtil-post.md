@@ -16,11 +16,11 @@ categories: [oracle]
 
 이는 JDBC url, id, pw, driver등의 정보를 넣어 놓은 후 편하게 읽어와 수행하게 하기 위함이다.<br>
 
-![1]({{ BASE_PATH }}images\java\JDBCUtil2.png)<br>
+![1]({{ BASE_PATH }}images\oracle\JDBC\JDBCUtil2.png)<br>
 
 dbinfo는 다음과 같이 작성되야하며 뒤에 띄어쓰기가 하나만 있어도 바로 오류가 발생한다.<br>
 
-![2]({{ BASE_PATH }}images\java\JDBCUtil3.png)<br>
+![2]({{ BASE_PATH }}images\oracle\JDBC\JDBCUtil3.png)<br>
 
 이제 JDBCUtil 클래스를 만들어 보자.<br>
 
@@ -44,7 +44,7 @@ ResultSet, Statement, Connection이 null인 경우 할당이 안된 경우이므
 
 null이 아닌경우에 자원반납을 하도록 한다.<br>
 
-![3]({{ BASE_PATH }}images\java\JDBCUtil1.png)<br>
+![3]({{ BASE_PATH }}images\oracle\JDBC\JDBCUtil1.png)<br>
 
 자 이제 다른 클래스에서 JDBCUtil을 이용하여 쿼리문을 수행해보도록 하자.<br>
 
@@ -54,7 +54,7 @@ null이 아닌경우에 자원반납을 하도록 한다.<br>
 
 예제 코드는 다음과 같다.<br>
 
-![4]({{ BASE_PATH }}images\java\JDBCUtil4.png)<br>
+![4]({{ BASE_PATH }}images\oracle\JDBC\JDBCUtil4.png)<br>
 
 -JDBCUtil를 활용해 Query수행해보기 끝-<br>
 
