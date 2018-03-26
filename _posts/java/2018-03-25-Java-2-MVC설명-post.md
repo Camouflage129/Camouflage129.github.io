@@ -54,6 +54,6 @@ Service개발자는 DB개발자에게 해당 함수에 대하여 오류를 해�
 
 나머지 경우는 말하지 않아도 충분히 이해가 갔으리라 판단한다.<br>
 
-다음 게시글에서는 MVC2구조, Spring / Framework에 대해 알아 보도록 하자.<br>
+이제 Spring을 사용하는 이유가 무엇인지 다음 게시글에서 알아 보도록 하자.<br>
 
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}
