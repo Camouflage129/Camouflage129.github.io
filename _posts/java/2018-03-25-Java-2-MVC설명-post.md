@@ -24,7 +24,9 @@ Web단으로 갔을 때, 위의 그림 처럼 각 기능을 수행할 Controller
 
 사용자의 요청에 따라 그것을 제어해 줄 Dispatcher Servlet 그리고<br>
 
-다시 반환 할 때, 알맞은 JSP로 보내줄 Handler Mapping가 존재한다. <br>
+알맞은 컨트롤러로 전달해 줄 Handler Mapping,<br>
+
+다시 반환 할 때, 알맞은 JSP로 보내줄 View Resolver가 존재한다. <br>
 
 <br>
 
