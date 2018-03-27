@@ -41,7 +41,7 @@ DispatcherServlet, HandlerMapping등 모두 다 만들어주어야한다.<br>
 
 이제 Spring App단의 환경설정 파일을 보며 설정파일에서 어떻게 객체가 할당되는지 알아보자.<br>
 
-![pring_Ap](C:\gitBlog\Camouflage129.github.io\images\java\MVC\Spring_App.png)<br>
+![Spring_App]({{ BASE_PATH }}images\java\MVC\Spring_App.png)<br>
 
 ApplicationContext.xml은 App단의 클래스와 파일에 대한 설정이다<br>
 
@@ -87,7 +87,7 @@ AOP를 무조건 거치게 된다. AOP를 거친 후 AOP 수행에 따라 Servic
 
 
 
-![pring_We](C:\gitBlog\Camouflage129.github.io\images\java\MVC\Spring_Web.png)<br>
+![Spring_Web]({{ BASE_PATH }}images\java\MVC\Spring_Web.png)<br>
 
 Web단의 설정을 보도록 하자.<br>
 
