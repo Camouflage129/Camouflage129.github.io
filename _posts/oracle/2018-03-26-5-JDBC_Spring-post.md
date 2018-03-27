@@ -96,7 +96,7 @@ setUp()함수는 테스트를 하기전 초기화를 하는 함수이고<br>
 
 tearDown()은 테스트가 끝난 후 자원반납을 하는 함수이다.<br>
 
-![13](C:\gitBlog\Camouflage129.github.io\images\oracle\spring\jdbc\13.png)<br>
+![13]({{ BASE_PATH }}images\oracle\spring\jdbc\13.png)<br>
 
 자 Service또한 역시 ApplicationContext.xml에 설정해 놓았으므로 new를 통해 할당하지 않는다.<br>
 
