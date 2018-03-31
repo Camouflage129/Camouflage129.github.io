@@ -11,6 +11,10 @@ categories: [tomcat]
 
 이번 글에서는 Spring MVC프로젝트를 생성 후 환경변수 설정을 해보고 서버 테스트를 해보겠다.<br>
 
+![9]({{ BASE_PATH }}images\tomcat\00.png)<br>
+
+먼저 Spring Tool을 설치하도록 하자. 위와같이 검색하여 쭉~설치하면 된다.<br>
+
 ![9]({{ BASE_PATH }}images\tomcat\9.png)<br>
 
 마우스 우클릭 -> 프로젝트 -> Other로 가도록 하자<br>
