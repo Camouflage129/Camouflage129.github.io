@@ -10,21 +10,15 @@ categories: [oracle]
 
 기존에 추가된 라이브러리 파일을 볼 수 있으므로, 앞선 글을 읽고 읽는것을 추천한다.<br>
 
-<br>
-
-Spring단을 배우려 한다면 클래스, 패키지 만드는 것은 굳이 보여주지 않아도 다 할것이다.<br>
-
-Maven Project는 모든 라이브러리를 pom.xml에서 dependecy에 그 값을 추가하여 관리한다.<br>
-
-다음 그림과 같이 DataSource 라이브러리와 JDBCTemplate을 추가해 주자<br>
-
-![1]({{ Base_PATH }}images\oracle\spring\datasource\1.png)<br>
-
-자 이제, 라이브러리 설정이 끝났으므로 resources에서 applicationContext.xml설정을 해주자.<br>![2]({{ Base_PATH }}images\oracle\spring\datasource\2.png)<br>
-
 갑자기 왜 굳이 DataSource를 쓰는지 JDBCUtil과의 차이점을 궁금해 할 수 있는데<br>
 
-jdbc를 사용하여 db에 접속하기 위해서는 드라이버를 로드하고 <br>
+먼저 사용하는데 있어서의 불편한점은 다음과 같다<br>
+
+파라미터 맵핑을 직접 시켜줘야한다 " ? "로 타입과 위치를 직접 지정해주어야하고<br>
+
+Result값을 타입과 컬럼명을 하나하나 직접 지정해서 꺼내야한다.<br>
+
+다른 관점에서는 jdbc를 사용하여 db에 접속하기 위해서는 드라이버를 로드하고 <br>
 
 db에 접속하여 connection 객체를 받아와야 한다. <br>
 
@@ -40,7 +34,17 @@ db에 접속하여 connection 객체를 받아와야 한다. <br>
 
 <br>
 
-무튼 위의 설명과 같은 이유로 DataSource를 bean에 등록한 후<br>
+Spring단을 배우려 한다면 클래스, 패키지 만드는 것은 굳이 보여주지 않아도 다 할것이다.<br>
+
+Maven Project는 모든 라이브러리를 pom.xml에서 dependecy에 그 값을 추가하여 관리한다.<br>
+
+다음 그림과 같이 DataSource 라이브러리와 JDBCTemplate을 추가해 주자<br>
+
+![1]({{ Base_PATH }}images\oracle\spring\datasource\1.png)<br>
+
+자 이제, 라이브러리 설정이 끝났으므로 resources에서 applicationContext.xml설정을 해주자.<br>![2]({{ Base_PATH }}images\oracle\spring\datasource\2.png)<br>
+
+DataSource를 bean에 등록한 후<br>
 
 JDBCTemplate이 DataSource를 통해서 DB에 접근할 수 있기 때문에 c태그로 그 값을 받도록 하자<br>
 
