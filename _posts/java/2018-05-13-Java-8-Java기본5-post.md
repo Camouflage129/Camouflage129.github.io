@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Java 기본 4
+title: Java 기본 5
 categories: [java]
 ---
 
-**== Java 기본 정리 4==**<br>
+**== Java 기본 정리 5==**<br>
 
 20. 멀티 쓰레딩
 
