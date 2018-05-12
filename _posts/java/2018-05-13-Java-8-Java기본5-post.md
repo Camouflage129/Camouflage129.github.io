@@ -6,7 +6,7 @@ categories: [java]
 
 **== Java 기본 정리 5==**<br>
 
-20. 멀티 쓰레딩
+\20. 멀티 쓰레딩
 
 하나의 프로세스 내에서 여러 쓰레드가 동시에 작업을 수행하는 것을 말한다.
 
@@ -44,7 +44,7 @@ CPU의 사용률을 향상시킨다.
 
 ​     
 
-21. 쓰레드의 구현방법
+\21. 쓰레드의 구현방법
 
 Thread Class의 run() 메소드를 Overriding 한다.
 
@@ -54,7 +54,7 @@ Thread Class의 run() 메소드를 Overriding 한다.
 
 ​     
 
-22. Serialize
+\22. Serialize
 
 직렬화란 자바 시스템 내부에서 사용되는 객체 or 데이터를 외부의 자바 시스템에서도 사용할 수 있도록 바이트 형태로 데이터를 변환하는 기술과, 바이트로 변환된 데이터를 다시 객체로 변환하는 역직렬화를 말한다.
 
@@ -62,7 +62,7 @@ JVM의 메모리에 상주되어있는 객체 데이터를 바이트 형태로 �
 
 ​     
 
-23. Generic
+\23. Generic
 
 다양한 타입의 객체를 다루는 메소드 or 컬렉션 클래스에 컴파일 시 타입을 체크해주는 기능이다.
 
@@ -70,7 +70,7 @@ JVM의 메모리에 상주되어있는 객체 데이터를 바이트 형태로 �
 
 ​     
 
-24. List, Set, Map
+\24. List, Set, Map
 
 ⦁List
 
@@ -96,7 +96,7 @@ HashMap, TreeMap, Properties, Hashtable
 
 ​     
 
-25. ByteStream
+\25. ByteStream
 
 ⦁Stream : 바이트 단위의 입출력
 
@@ -106,7 +106,7 @@ InputStream / OutputStream : 입출력을 위한 바이트 스트림의 최상�
 
 ​     
 
-26. InputStreamReder / OutputStreamWriter
+\26. InputStreamReder / OutputStreamWriter
 
 ⦁Reader/Writer : 캐릭터 단위의 입출력
 
@@ -114,11 +114,11 @@ InputStream / OutputStream : 입출력을 위한 바이트 스트림의 최상�
 
 ​     
 
-27. BufferedReader / BufferedWriter 문자 입력 스트림으로부터 문자를 읽어 들이거나 문자 출력 스트림으로 문자를 내보낼 때 버퍼링을 함으로써 문자, 문자 배열, 문자열 라인 등을 보다 효율적으로 처리할 수 있도록 해준다. InputStreamReader / OutputStreamWriter를 사용하는 경우는 한 문자씩 읽지만 버퍼링을 하게 되면 입출력 스트림으로부터 미리 버퍼에 데이터를 갖다 놓기 때문에 보다 효율적으로 입출력할 수 있다.
+\27. BufferedReader / BufferedWriter 문자 입력 스트림으로부터 문자를 읽어 들이거나 문자 출력 스트림으로 문자를 내보낼 때 버퍼링을 함으로써 문자, 문자 배열, 문자열 라인 등을 보다 효율적으로 처리할 수 있도록 해준다. InputStreamReader / OutputStreamWriter를 사용하는 경우는 한 문자씩 읽지만 버퍼링을 하게 되면 입출력 스트림으로부터 미리 버퍼에 데이터를 갖다 놓기 때문에 보다 효율적으로 입출력할 수 있다.
 
 ​     
 
-28. Call by Reference / Call by Value
+\28. Call by Reference / Call by Value
 
 ⦁Call by Reference : 매개 변수의 원래 주소를 파라미터로 전달하는 방식으로 메소드 내의 처리 결과가 해당 변수의 주소에 직접 값의 변화가 일어나므로 메소드 밖의 참조된 변수에 영향을 미치게 된다.
 

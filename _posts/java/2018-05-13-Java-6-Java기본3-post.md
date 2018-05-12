@@ -6,7 +6,7 @@ categories: [java]
 
 **== Java 기본 정리 3==**<br>
 
-10. Static, Final
+\10. Static, Final
 
 ∘Static : 클래스가 로딩될 때, 메모리 공간을 할당하는데 처음 설정된 메모리 공간이 변하지 않는다는 것을 말한다. 객체를 아무리 많이 만들어도 해당 변수는 하나만 존재한다.
 
@@ -58,7 +58,7 @@ categories: [java]
 
 ​     
 
-11. 접근제한자 (pulbic＞protected > default > private)
+\11. 접근제한자 (pulbic＞protected > default > private)
 
 ⦁public – 접근 제한이 없다. (같은 프로젝트 내에 어디서든 사용가능하다.)
 
@@ -70,7 +70,7 @@ categories: [java]
 
 ​     
 
-12. Primitive type과 Reference type
+\12. Primitive type과 Reference type
 
 ⦁Primitive Type – 변수에 값 자체를 저장하는 타입을 말한다. 
 
@@ -86,13 +86,13 @@ ex) Class, Interface, Array
 
 ​     
 
-13. Wrapper Class
+\13. Wrapper Class
 
 Primitive type으로 표현할 수 있는 데이터를 객체로 만들어주는 클래스를 말한다.
 
 ​     
 
-14. Instanceof 연산자
+\14. Instanceof 연산자
 
 A instanceof B의 결과값은 A->B 형변환이 가능할 시 True 그렇지 않으면 False가 return된다.
 

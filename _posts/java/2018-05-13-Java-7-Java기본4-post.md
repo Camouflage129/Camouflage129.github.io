@@ -6,7 +6,7 @@ categories: [java]
 
 **== Java 기본 정리 4==**<br>
 
-15. 기본형 변수와 참조형 변수
+\15. 기본형 변수와 참조형 변수
 
 ⦁공통점
 
@@ -20,7 +20,7 @@ categories: [java]
 
 ​     
 
-16. 예외처리
+\16. 예외처리
 
 ⦁예외처리 – 프로그램의 비 정상 종료를 막고, 정상적인 실행상태를 유지하기 위한 것이다.
 
@@ -32,7 +32,7 @@ categories: [java]
 
 ​     
 
-17. 얕은 복사, 깊은 복사
+\17. 얕은 복사, 깊은 복사
 
 ⦁얕은 복사 – 객체를 copy할 때, copy 대상 객체의 주소값을 넘긴다.
 
@@ -44,7 +44,7 @@ categories: [java]
 
 ​     
 
-18. String, StringBuffer, StringBuilder
+\18. String, StringBuffer, StringBuilder
 
 ⦁String Class
 
@@ -64,7 +64,7 @@ categories: [java]
 
 ​     
 
-19. Process와 Thread
+\19. Process와 Thread
 
 ⦁Process
 

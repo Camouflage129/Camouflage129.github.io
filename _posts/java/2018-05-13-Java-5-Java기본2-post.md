@@ -6,25 +6,25 @@ categories: [java]
 
 **== Java 기본 정리 2==**<br>
 
-5. Object 객체란?
+\5. Object 객체란?
 
 객체는 데이터와 그 데이터에 관련되는 동작(메소드), 절차, 방법, 기능을 모두 포함한 개념이다.
 
 ​     
 
-6. Class란?
+\6. Class란?
 
 객체를 정의해 놓은 것을 말한다. 즉, 추상화를 통해 실제 사물에 대해 관심이 가는 특성만을 추출해 모델링한 것.
 
 ​     
 
-7. Instance란?
+\7. Instance란?
 
 클래스로부터 객체를 만드는 과정을 인스턴스화라 하며, 실제로 만들어진 객체를 인스턴스라고 한다.
 
 ​     
 
-8. Overloading, Overriding
+\8. Overloading, Overriding
 
 ∘Overloading은 같은 이름의 메소드를 여러개 정의하는 것을 말한다.
 
@@ -40,7 +40,7 @@ return tpye과 접근 제어자는 영향을 주지 않는다.
 
 ​     
 
-9. Interface, Abstract
+\9. Interface, Abstract
 
 ∘Interface
 
