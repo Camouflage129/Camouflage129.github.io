@@ -104,6 +104,6 @@ HTTP Method는 다음과 같다.
 
 \- 웹서버에 많은 데이터를 전달하기 위해서는 Post 방식을 사용하는 것이 바람직하다.
 
-​     
+​
 
 {% if site.dispus-shortname %}{% include dispus.html %}{% endif %}
